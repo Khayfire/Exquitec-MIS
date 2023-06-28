@@ -1,0 +1,1179 @@
+@font-face {
+    src: url(../otf/KonsensBold.otf);
+    font-family: konsensBold;
+}
+
+@font-face {
+    font-family: KonsensRegular;
+    src: url(../otf/KonsensRegular.otf);
+}
+
+@font-face {
+    font-family: KonsensSemibold;
+    src: url(../otf/KonsensSemibold.otf);
+}
+
+@font-face {
+    font-family: KonsensLight;
+    src: url(../otf/KonsensLight.otf);
+}
+
+@font-face {
+    font-family: KonsensMedium;
+    src: url(../otf/KonsensMedium.otf);
+}
+
+body {
+    width: 100%;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --max-container-width: 567px
+}
+/*index page*/
+.containerd {
+    background-image: url(../access/Registration.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerd-section {
+    width: 100%;
+    max-width: 728px;
+}
+
+.containerd-section-area {
+    padding: 25px 0px;
+}
+
+.bg-push {
+    padding-top: 72px;
+}
+
+.containerd-section-area {
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.welcome-exquitec-text {
+    margin-top: 32px;
+    font-family: KonsensBold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.0576em;
+    color: #1E1E1E;
+}
+
+.forward-thinking-text {
+    margin-top: 2px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.0288em;
+    color: #1E1E1E;
+}
+
+.link-to-logins p {
+    width: 470px;
+    padding: 17.5px 0px;
+}
+
+.link-to-logins a {
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-to-login-background {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+.link-to-logins {
+    margin: auto 129px;
+    padding: 50px 0px;
+}
+
+.background-1 {
+    background-color: #754081;
+    margin-bottom: 16px;
+
+}
+
+.background-2 {
+    background-color: #268704;
+    margin-bottom: 16px;
+}
+
+.background-3 {
+    background-color: #F4AC45;
+}
+
+/*login page*/
+.container {
+    display: flex;
+    height: 100vh;
+}  
+
+.inner-container_login {
+    width: 100%;
+    max-width: 470px;
+    margin: 0px auto;
+}
+
+.inner-container_login h1 {
+    font-family: KonsensBold;
+    font-size: 48px;
+    line-height: 69px;
+    letter-spacing: 0.0576em;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.form_login {
+    margin-top: 25px;
+}
+
+.learn-text_login {
+    padding-top: 0.23px;
+    font-family: KonsensRegular;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.024em;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.8);
+}
+
+.user_student-id{
+    display: flex;
+    width: 140px;
+    height: 21px;
+    padding-bottom: 8px;
+}
+
+.user_text_login {
+    padding-left: 8px;
+    color: #1E1E1EA3;
+    font-family: KonsensRegular;
+    font-size: 18px;
+    letter-spacing: 0.024em;
+}
+
+.login_input {
+    margin-top: 8px;
+    padding: 12px 0px 12px 16px;
+    Width: 470px;
+    font-family: KonsensRegular;
+    font-size: 18px;
+    letter-spacing: 0.024em;
+}
+
+.student_password-login {
+    margin-top: 30px;
+}
+
+.checkbox-section {
+    /*width: 131px;
+    height: 24px;*/
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-text {
+    height: 21px;
+    width: 99px;
+    padding-left: 8px;
+    font-family: KonsensBold;
+    font-size: 14px;
+}
+
+.checkbox_login {
+    height: 24px;
+    width: 24px;
+}
+
+.login_note {
+    padding-top: 20px;
+    font-family: KonsensRegular;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.024em;
+    text-align: center;
+}
+
+.login_note span {
+    font-family: KonsensBold;
+}
+
+.input-password {
+    position: relative;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.button_login {
+    margin-top: 34px;
+    text-align: center;
+}
+
+.button_login button {
+    /*height: 54px;
+    width: 470px;*/
+    background-color: rgba(117, 64, 129, 1);
+    padding: 12.5px 211px;
+    color: #FFFFFF;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button_login p {
+    margin-top: 22px;
+    font-family: KonsensRegular;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.0192em;
+    text-align: center;
+}
+
+.button_login a {
+    color: rgba(117, 64, 129, 1);
+    text-decoration: none;
+    font-family: KonsensBold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.0192em;
+}
+
+/*Signup page */
+
+.bg-image {
+    background-image: url(../access/Rectangle\ 2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    flex-basis: 50%;
+}
+
+.student_sign {
+    flex-basis: 50%;
+}
+
+.inner-container {
+    width: 100%;
+    /*max-width: 576px;*/
+    max-width: var(--max-container-width);
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.testing {
+    margin: 30px 0px 18px 0px;
+}
+
+.bg-logo {
+    width: 257.12px;
+    height: 48.77px;
+    background-image: url(../access/exquteclogomain.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;   
+}
+
+.inner-container h1 {
+    font-family: KonsensBold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.0576em;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.learn-text {
+    font-family: KonsensRegular;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.024em;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.8);
+}
+
+form {
+    margin-top: 40px;
+}
+
+.user-section {
+    display: flex;
+}
+
+.user_name {
+    display: flex;
+    width: 140px;
+    height: 21px;
+    padding-bottom: 8px;
+}
+
+.user_text {
+    padding-left: 8px;
+    color: #1E1E1EA3;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    
+}
+
+.last_name {
+    margin-left: 90px;
+}
+
+.user-section input {
+    margin-top: 8px;
+    padding: 15.23px 0px 13px 10px;
+    Width: 234px;
+    font-family: KonsensRegular;
+    font-size: 18px;
+    letter-spacing: 0.024em;
+}
+
+.student_course_gender{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_course {
+    display: flex;
+    width: 193px;
+    height: 30px;
+    padding-bottom: 8px;
+}
+
+.user_texts{
+    padding-left: 8px;
+    color: #1E1E1EA3;
+    font-family: KonsensRegular;
+    font-size: 20px;
+}
+
+.user_gender {
+    display: flex;
+    width: 104px;
+    height: 30px;
+    padding-bottom: 8px;
+}
+
+.select_course {
+    padding: 15.23px 0px 13px 10px;
+    width: 292px;
+    font-size: 18px;
+}
+
+.select_gender {
+    padding: 15.23px 0px 13px 10px;
+    width: 251px;
+    font-size: 18px;
+}
+
+.button_signup {
+    padding-top: 44px;
+    text-align: center;
+}
+
+.button_signup button {
+    /*height: 54px;
+    width: 470px;*/
+    background-color: rgba(117, 64, 129, 1);
+    padding: 12.5px 207.5px;
+    color: #FFFFFF;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    border-radius: 10px;
+    border: none;
+}
+
+.button_signup p {
+    margin-top: 32px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+}
+
+.button_signup a {
+    color: rgba(117, 64, 129, 1);
+    text-decoration: none;
+    font-family: KonsensBold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+}
+
+/*registration*/
+.container_a {
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container_a {
+    width: 100%;
+    max-width: 1156px;
+    margin: 0px auto;
+}
+
+.bg-registration {
+    background-image: url(../access/bg1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+}
+
+.register-successful {
+    width: 680px;
+    height: 90px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.register {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: KonsensBold;
+    line-height: 72px;
+}
+
+.register p {
+    padding: 12px 0px 25px 24px;
+}
+
+.registration_pin {
+    height: 125px;
+    width: 295px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.id_text {
+    color: rgba(30, 30, 30, 0.8);
+    text-align: center;
+    font-family: KonsensRegular;
+    font-size: 27px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+.student_id {
+    background-color: rgba(244, 172, 69, 0.08);
+    width: 160px;
+    margin: auto;
+    margin-top: 14px;
+    padding: 8px 0px 8px 0px;
+    color: rgba(244, 172, 69, 1);
+    font-family: KonsensRegular;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: center;
+}
+
+.student_note {
+    height: 96px;
+    width: 1156px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.student_note p {
+    color: rgba(30, 30, 30, 0.64);
+    font-size: 28px;
+    font-family: KonsensRegular;
+    line-height: 35px;
+    letter-spacing: 0.0384em;
+    text-align: center;
+}
+
+.student_note a {
+    color: rgba(117, 64, 129, 1);
+    font-size: 28px;
+    font-weight: bold;
+    font-family: KonsensBold;
+    line-height: 35px;
+    letter-spacing: 0.0384em;
+    text-decoration: none;
+}
+
+
+/*Dashboard Page */
+.containerdashboard {
+    display: flex;
+}
+
+.dashboard-list {
+    width: 396px;
+}
+
+/*.flex-inner {
+    width: 100%;
+    max-width: 207px;
+    margin: 0px auto;
+}*/
+
+.logo_div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dashboard-logo {
+    background-image: url(../access/exquteclogomain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 207px;
+    height: 47px;
+    margin: auto;
+}
+
+.detail-block{
+    text-align: center;
+}
+
+.detail-block p {
+    margin-bottom: 32px;
+    font-family: KonsensRegular;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+
+}
+
+.detail-block a  {
+    text-decoration: none;
+    color: #1E1E1E;
+
+}
+
+.detail-block p:hover {
+    background-color: rgba(117, 64, 129, 1);
+    width: 100%;
+    font-family: KonsensBold;
+}
+
+.detail-block a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.user-logo_container {
+    background-color: rgba(244, 172, 69, 0.08);
+    width: 82px;
+    height: 82px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.user_logo {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signout-button {
+    margin-top: 68px;
+}
+
+.signout-button button {
+    background-color: transparent;
+    font-family: KonsensBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+    border: none;
+}
+
+.flex-inner_a {
+    background-color: #F5F5F5;
+    width: 1024px;
+}
+
+.welcome-stdname {
+    margin: 50px 0px 32px 24px;
+    font-family: KonsensRegular;
+    font-size: 45px;
+    line-height: 72px;
+    letter-spacing: 0.0576em;
+}
+
+.welcome-stdname span {
+    font-family: KonsensBold;
+}
+
+.gen-text {
+    font-family: KonsensLight;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+.general-section {
+    margin-left: 24px;
+}
+
+.flex-biodata_a {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.flex-biodata_b {
+    display: flex;
+}
+
+.box {
+    background-color: #D9D9D9;
+    width: 265px;
+    height: 128px;
+    margin-right: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box svg {
+    margin: 45px 100px;
+}
+
+.box-profile p {
+    width: 265px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.0288em;
+    text-align: center;
+}
+
+/*.box-profile p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.0288em;
+}*/
+
+
+.box-profile a {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+/*biodata page*/
+.biodata-section {
+    margin-left: 24px;
+}
+
+.flex-back {
+    margin: 32px 0px 12px 0px;
+    display: flex;
+}
+
+.flex-back button {
+    background-color: rgba(117, 64, 129, 0.16);
+    margin-left: 752px;
+    padding: 8px 36.5px;
+    color: rgba(117, 64, 129, 1);
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.024em;
+    border: none;
+}
+
+.welcome-stdname_b {
+    margin-top: 3px;
+    font-family: KonsensRegular;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.0576em;
+}
+
+.welcome-stdname_b span {
+    font-family: KonsensBold;
+}
+
+.student-info {
+    margin: 32px 0px 16px 0px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: 0.0384em;
+}
+
+.detail-of-signup {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.detail-of-signup p {
+    width: 234px;
+    height: 102px;
+    margin-right: 40px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+}
+
+.detail-of-signup input {
+    width: 234px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.sponser-section {
+    margin-bottom: 16px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+.download-save_button {
+    margin: 12px 0px 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.download-button {
+    background-color: transparent;
+    margin-right: 100px;
+    padding: 8px 9.5px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    color: rgba(117, 64, 129, 1);
+    letter-spacing: 0.0294em;
+    border: 0.8px solid rgba(117, 64, 129, 1);
+    border-radius: 4px;
+}
+
+.save-button {
+    background-color: rgba(117, 64, 129, 1);
+    margin-right: 51px;
+    padding: 8px 26.5px;
+    color: #FFFFFF;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    letter-spacing: 0.0294em;
+    border: none;
+    border-radius: 4px;
+}
+
+/*transcript section*/
+.student-detail-transcript p {
+    margin-bottom: 24px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+    color:#1E1E1EA3
+
+}
+
+.student-detail-transcript span {
+    color: #1E1E1E;
+}
+
+.transcript-header h1 {
+    margin-bottom: 16px;
+    font-family: KonsensRegular;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+
+}
+
+.transcript-header table{
+    font-family: KonsensRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+
+}
+
+.download-button-transcript {
+    margin: 30px 0px 30px 0px;
+}
+
+.download-button-transcript button {
+    background-color: transparent;
+    padding: 8px 9.5px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    letter-spacing: 0.0294em;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
+
+/*result*/
+
+.congratulation-section {
+    margin-top: 62px;
+}
+
+.big-rectangle {
+    background-color: #1E1E1E;
+    height: 258px;
+    width: 331px;
+    margin: auto;
+}
+
+.congratulation-section p {
+    height: 113px;
+    width: 742px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: KonsensBold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: center;
+
+/*styleName: 32 bold;
+
+font-size: 32px;
+line-height: 48px;
+letter-spacing: 0.0384em;
+text-align: center;
+
+//styleName: H3 bold;
+font-family: KonsensBold;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: 0.0576em;
+text-align: center;*/
+
+}
+
+.name-of-student {
+    font-family: KonsensRegular;
+}
+
+/* test section */
+.test-section {
+    margin-top: 46px;
+}
+
+.test-title {
+    margin-bottom: 16px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+/* staff login */
+.bg-image_staff {
+    background-image: url(../access/staff_pic.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    flex-basis: 50%;
+}
+
+/*  Staff login */
+.checkbox-section_staff {
+    margin-top: 20px;
+}
+
+/*Staff sign up */
+.learn-textstaff {
+    margin-top: 10px;
+}
+
+/* staff registration */
+.bg-registration_staff {
+    background-image: url(../access/staff-registration-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+}
+
+.register-successful_staff {
+    margin-top: 50px;
+}
+
+.student_note_staff {
+    margin-top: 40px;
+}
+
+/* Staff Dashboard */
+.signout-button_staff {
+    margin-top: 38px;
+}
+
+/* staff biodata */
+.download-save_buttonstaff {
+    margin-bottom: 30px;
+}
+
+.save-button_staff {
+    margin-left: 721px;
+}
+
+/* Staff view biodata section */
+
+.view-info {
+    margin: 32px 0px 16px 0px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    text-align: left;
+}
+
+/* staff report section */
+
+.gen-text_staff {
+    margin-bottom: 16px;
+}
+
+/* Report upload section */
+.detail-text-upload {
+    margin-bottom: 16px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+    color: #1E1E1E;
+}
+
+.detail-of-upload {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.detail-of-upload p {
+    width: 234px;
+    height: 102px;
+    margin-right: 24px;
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+}
+
+.detail-of-upload input {
+    margin-top: 8px;
+    width: 234px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.select_type-section {
+    margin-top: 8px;
+    width: 126px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.textarea-section textarea {
+    width: 910px;
+    height: 156px;
+}
+
+.drag-and-drop {
+    width: 910px;
+    height: 121px;
+    margin-top: 90px;
+    border: 1px dashed #1E1E1E;
+}
+
+.alternative-to-upload {
+    text-align: center;
+}
+
+.alternative-text-upload {
+    margin: 60px 0px 24px 0px;
+    font-family: KonsensRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0192em;
+}
+
+.alternative-to-upload button {
+    background-color: transparent;
+    padding: 8px 13px 8px 13px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
+
+/*upload successful page */
+.successful-message {
+    width: 571px;
+    margin: auto;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.successful-message-text {
+    height: 144px;
+    margin-top: 32px;
+    font-family: KonsensMedium;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 0.0576em;  
+    text-align: center;
+}
+
+.report-link-text {
+    width: 166px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 18px 0px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    text-align: center;
+    border: 0.8px solid #1E1E1E;
+    border-radius: 4px;
+}
+
+.report-link-text a {
+    color: #1E1E1E;
+    text-decoration: none;
+    
+}
+
+/*view  report */
+.view-report-text {
+    margin: 32px 0px 24px 0px;
+    font-family: KonsensLight;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.0384em;
+}
+
+.report-table table {
+    border: 1px solid #1E1E1E;
+}
+
+
+/*create engagement section*/
+.signout-button-engage {
+    margin-bottom: 100px;
+}
+
+.detail-text-engage  {
+   display: flex;
+}
+
+.detail-text-engage p {
+    color: #1E1E1E;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.024em;
+}
+
+.detail-text-engage input {
+    margin-top: 8px;
+    width: 234px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+}
+
+.select_gender-priority {
+    margin-top: 8px;
+    margin-right: 24px;
+    width: 126px;
+    height: 64px;
+    font-family: KonsensRegular;
+    font-size: 20px;
+    letter-spacing: 0.024em;
+    text-align: left;
+
+}
+
+.engagement-button {
+    height: 132px;
+    width: 470px;
+    margin: auto;
+    margin-top: 46px;   
+}
+
+.engagement-button button {
+    padding: 16.5px 211.5px;
+    font-family: KonsensSemibold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0294em;
+    border-radius: 10px;
+}
+
+.create-button {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cancle-button {
+    background-color: transparent;
+    margin: 24px 0px 24px 0px;
+    border: 0.8px solid #000000;
+}
